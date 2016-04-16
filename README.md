@@ -1,7 +1,5 @@
 [![Binder](http://mybinder.org/badge.svg)](http://mybinder.org/repo/fomightez/cairo-jupyter)
-
-^^^^^^^^^^
-
+^^^^^^^^^^<br\>
 Press button above to start
 
 # cairo-jupyter
