@@ -7,6 +7,6 @@ Press button above to start (cairo images will only be visible in active noteboo
 
 Cairo output displaying in a Jupyter notebook hosted via mybinder.org.
 
-The idea is that this may make development easier because could change code and see change in image on same page.
-
 [Demostration page](http://mybinder.org/repo/fomightez/cairo-jupyter) even works on mobile devices.
+
+The idea is that this may make development easier because could spawn active coding environments in any modern browser on any device, change code, and see the results of the change in the image shown on same page.
