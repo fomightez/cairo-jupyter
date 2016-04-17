@@ -9,4 +9,4 @@ Cairo output displaying in a Jupyter notebook hosted via mybinder.org.
 
 The idea is that this may make development easier because could change code and see change in image on same page.
 
-[Demostration page](http://mybinder.org/repo/fomightez/cairo-jupyter)
+[Demostration page](http://mybinder.org/repo/fomightez/cairo-jupyter) even works on mobile devices.
