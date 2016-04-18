@@ -9,4 +9,4 @@ Cairo output displaying in a Jupyter notebook hosted via mybinder.org.
 
 [Demostration page](http://mybinder.org/repo/fomightez/cairo-jupyter) even works on mobile devices.
 
-The idea is that this may make development easier because could spawn active coding environments in any modern browser on any device, change code, and see the results of the change in the image shown on same page.
+This should make development easier by enabling spawning active coding environments in any modern browser on any device, where one can change the code and see the resulting image displayed on the same page.
