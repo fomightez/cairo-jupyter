@@ -12,3 +12,7 @@ This should make development easier by enabling spawning active coding environme
 The [demonstration pages](http://mybinder.org/repo/fomightez/cairo-jupyter) even work on mobile devices.
 
 Click this button to launch live, interactive [demonstration pages](http://mybinder.org/repo/fomightez/cairo-jupyter) ----> [![Binder](http://mybinder.org/badge.svg)](http://mybinder.org/repo/fomightez/cairo-jupyter)  
+
+## Inspiration
+
+This is based on Stuaxo's [ipython_cairo](https://github.com/stuaxo/ipython_cairo)and MyBinder.org. See [here](https://github.com/stuaxo/ipython_cairo/issues/4#issuecomment-355009047) for some of discussion of getting it working in Binders launched from MyBinder.org.
