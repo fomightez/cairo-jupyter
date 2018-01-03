@@ -1,0 +1,2 @@
+pycairo
+-e git+https://github.com/stuaxo/cairo-jupyter.git
