@@ -8,8 +8,8 @@ except:
     pip.main(['install', 'jupyter-pip']); cmdclass = importlib.import_module('jupyterpip').cmdclass
 
 setup(
-    name='jupyter-cairo',
-    packages=['cairo'],
+    name='cairo-jupyter',
+    packages=['cairo_jupyter'],
     # ... more setup.py stuff here ...
     install_requires=["jupyter-pip"],
     cmdclass=cmdclass('cairo_jupyter'),
