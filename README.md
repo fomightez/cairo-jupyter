@@ -7,7 +7,7 @@ Press button above to start (cairo images will be visible in the active notebook
 
 Jupyter notebooks hosted via mybinder.org that will run Cairo image-generating code.
 
-This should make development easier by enabling spawning active coding environments in any modern browser on any device, where one can change the code and see the resulting image displayed on the same page. I was finding developing Cairo code purely on the command line was much less straighforward.
+This should make development easier by enabling spawning active coding environments in any modern browser on any device, where one can change the code and see the resulting image displayed on the same page. I was finding developing Cairo code purely on the command line was less than ideal because of going back and forth between applications.
 
 The [demonstration notebooks](https://mybinder.org/v2/gh/fomightez/cairo-jupyter/master?filepath=index.ipynb) even work on mobile devices.
 
