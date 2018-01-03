@@ -1,4 +1,4 @@
-[![Binder](http://mybinder.org/badge.svg)](http://mybinder.org/repo/fomightez/cairo-jupyter/master?filename=index.ipynb)  
+[![Binder](http://mybinder.org/badge.svg)]https://mybinder.org/v2/gh/fomightez/cairo-jupyter/master?filepath=index.ipynb)  
 ^^^^^^^^^^  
 Press button above to start (cairo images wil be visible in the active notebooks)
 
@@ -11,7 +11,7 @@ This should make development easier by enabling spawning active coding environme
 
 The [demonstration notebooks](http://mybinder.org/repo/fomightez/cairo-jupyter) even work on mobile devices.
 
-Click this button to launch live, interactive [demonstation notebooks](http://mybinder.org/repo/fomightez/cairo-jupyter) ----> [![Binder](http://mybinder.org/badge.svg)](http://mybinder.org/repo/fomightez/cairo-jupyter/master?filename=index.ipynb).
+Click this button to launch live, interactive [demonstation notebooks](http://mybinder.org/repo/fomightez/cairo-jupyter) ----> [![Binder](http://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/fomightez/cairo-jupyter/master?filepath=index.ipynb).
 
 ## Inspiration
 
