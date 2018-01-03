@@ -11,4 +11,4 @@ This should make development easier by enabling spawning active coding environme
 
 The [demonstration pages](http://mybinder.org/repo/fomightez/cairo-jupyter) even work on mobile devices.
 
-Click this button to launch live, interactive [demostration pages](http://mybinder.org/repo/fomightez/cairo-jupyter) ----> [![Binder](http://mybinder.org/badge.svg)](http://mybinder.org/repo/fomightez/cairo-jupyter)  
+Click this button to launch live, interactive [demonstration pages](http://mybinder.org/repo/fomightez/cairo-jupyter) ----> [![Binder](http://mybinder.org/badge.svg)](http://mybinder.org/repo/fomightez/cairo-jupyter)  
