@@ -1,2 +1,2 @@
 pycairo
--e git+https://github.com/stuaxo/cairo-jupyter.git
+-e git+https://github.com/stuaxo/cairo-jupyter.git#egg=cairo-jupyter
