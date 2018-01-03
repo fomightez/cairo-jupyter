@@ -1,4 +1,8 @@
-[![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/stuaxo/cairo-jupyter/master?filepath=index.ipynb)  
+<<<<<<< HEAD
+[![Binder](http://mybinder.org/badge.svg)](http://mybinder.org/repo/stuaxo/cairo-jupyter)  
+=======
+[![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/fomightez/cairo-jupyter/master?filepath=index.ipynb)  
+>>>>>>> 88f003193f5f4f5e70d4fbe9338ae1b31168ebd3
 ^^^^^^^^^^  
 Press button above to start (cairo images will be visible in the active notebooks)
 
@@ -9,10 +13,16 @@ Jupyter notebooks hosted via mybinder.org that will run Cairo image-generating c
 
 This should make development easier by enabling spawning active coding environments in any modern browser on any device, where one can change the code and see the resulting image displayed on the same page. I was finding developing Cairo code purely on the command line was less than ideal because of going back and forth between applications.
 
-The [demonstration notebooks](https://mybinder.org/v2/gh/stuaxo/cairo-jupyter/master?filepath=index.ipynb) even work on mobile devices.
+<<<<<<< HEAD
+The [demonstration pages](http://mybinder.org/repo/sttuaxo/cairo-jupyter) even work on mobile devices.
+
+Click this button to launch live, interactive [demostration pages](http://mybinder.org/repo/stuaxo/cairo-jupyter) ----> [![Binder](http://mybinder.org/badge.svg)](http://mybinder.org/repo/stuaxo/cairo-jupyter)  
+=======
+The [demonstration notebooks](https://mybinder.org/v2/gh/fomightez/cairo-jupyter/master?filepath=index.ipynb) even work on mobile devices.
 
 Click this button to launch live, interactive [demonstation notebooks](http://mybinder.org/repo/fomightez/cairo-jupyter) ----> [![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/fomightez/cairo-jupyter/master?filepath=index.ipynb).
 
 ## Inspiration
 
 This is based on Stuaxo's [ipython_cairo](https://github.com/stuaxo/ipython_cairo)and MyBinder.org. See [here](https://github.com/stuaxo/ipython_cairo/issues/4#issuecomment-355009047) for some of discussion of getting it working in "binderized" notebooks launched from MyBinder.org.
+>>>>>>> 88f003193f5f4f5e70d4fbe9338ae1b31168ebd3
