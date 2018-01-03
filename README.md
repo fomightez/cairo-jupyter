@@ -1,6 +1,6 @@
-[![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/fomightez/cairo-jupyter/master?filepath=index.ipynb)
+[![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/fomightez/cairo-jupyter/master?filepath=index.ipynb)  
 ^^^^^^^^^^  
-Press button above to start (cairo images wil be visible in the active notebooks)
+Press button above to start (cairo images will be visible in the active notebooks)
 
 
 # cairo-jupyter
