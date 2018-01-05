@@ -1,4 +1,4 @@
-[![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/fomightez/cairo-jupyter/master?filepath=index.ipynb)  
+[![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/stuaxo/cairo-jupyter/master?filepath=index.ipynb)  
 ^^^^^^^^^^  
 Press button above to start (cairo images will be visible in the active notebooks)
 
@@ -9,9 +9,9 @@ Jupyter notebooks hosted via mybinder.org that will run Cairo image-generating c
 
 This should make development easier by enabling spawning active coding environments in any modern browser on any device, where one can change the code and see the resulting image displayed on the same page. I was finding developing Cairo code purely on the command line was less than ideal because of going back and forth between applications.
 
-The [demonstration notebooks](https://mybinder.org/v2/gh/fomightez/cairo-jupyter/master?filepath=index.ipynb) even work on mobile devices.
+The [demonstration notebooks](https://mybinder.org/v2/gh/stuaxo/cairo-jupyter/master?filepath=index.ipynb) even work on mobile devices.
 
-Click this button to launch live, interactive [demonstation notebooks](http://mybinder.org/repo/fomightez/cairo-jupyter) ----> [![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/fomightez/cairo-jupyter/master?filepath=index.ipynb).
+Click this button to launch live, interactive [demonstation notebooks](http://mybinder.org/repo/stuaxo/cairo-jupyter) ----> [![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/stuaxo/cairo-jupyter/master?filepath=index.ipynb).
 
 ## Inspiration
 
