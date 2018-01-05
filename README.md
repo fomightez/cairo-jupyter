@@ -15,4 +15,4 @@ Click this button to launch live, interactive [demonstation notebooks](http://my
 
 ## Inspiration
 
-This is based on Stuaxo's [ipython_cairo](https://github.com/stuaxo/ipython_cairo)and MyBinder.org. See [here](https://github.com/stuaxo/ipython_cairo/issues/4#issuecomment-355009047) for some of discussion of getting it working in "binderized" notebooks launched from MyBinder.org.
+This is based on Stuaxo's [ipython_cairo](https://github.com/stuaxo/ipython_cairo) and MyBinder.org. See [here](https://github.com/stuaxo/ipython_cairo/issues/4#issuecomment-355009047) for some of discussion of getting it working in "binderized" notebooks launched from MyBinder.org.
