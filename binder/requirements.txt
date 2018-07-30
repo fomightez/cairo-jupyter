@@ -1,2 +1,3 @@
 cairocffi
--e git+https://github.com/stuaxo/cairo-jupyter.git#egg=cairo-jupyter
+pycairo
+-e git+https://github.com/fomightez/cairo-jupyter.git#egg=cairo-jupyter
