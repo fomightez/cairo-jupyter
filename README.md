@@ -5,7 +5,7 @@ Press button above to start (cairo images will be visible in the active notebook
 
 # cairo-jupyter
 
-Active Jupyter notebooks hosted via mybinder.org that will run Cairo image-generating code.
+Launchable active Jupyter notebooks hosted via mybinder.org that will run Cairo image-generating code.
 
 This should make development easier by enabling spawning active coding environments in any modern browser on any device, where one can change the code and see the resulting image displayed on the same page. I was finding developing Cairo code purely on the command line was less than ideal because of going back and forth between applications.
 
