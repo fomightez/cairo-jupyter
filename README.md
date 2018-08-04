@@ -13,6 +13,12 @@ The [demonstration notebooks](https://mybinder.org/v2/gh/stuaxo/cairo-jupyter/ma
 
 Click this button to launch live, interactive [demonstation notebooks](https://mybinder.org/v2/gh/fomightez/cairo-jupyter/master?filepath=index.ipynb) ----> [![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/fomightez/cairo-jupyter/master?filepath=index.ipynb).
 
+# Continuous integration
+
+Trying to develop using CircleCI for maintaining this repo during development. Status:
+
+[![CircleCI](https://circleci.com/gh/fomightez/cairo-jupyter.svg?style=svg)](https://circleci.com/gh/fomightez/cairo-jupyter)
+
 ## Inspiration
 
 This is based on Stuaxo's [ipython_cairo](https://github.com/stuaxo/ipython_cairo) and MyBinder.org. See [here](https://github.com/stuaxo/ipython_cairo/issues/4#issuecomment-355009047) for some of discussion of getting it working in "binderized" notebooks launched from MyBinder.org.
