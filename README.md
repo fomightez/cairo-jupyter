@@ -15,7 +15,7 @@ Click this button to launch live, interactive [demonstation notebooks](https://m
 
 # Continuous integration
 
-This repository is connected to continuous integration. Currently, it checks repo2docker can use the repo to make a Docker image/Binder implementation and also verifies the resulting running container can generate images works and displays the status of these tests on the next line. It can take a few minutes for `FAILED` to show if something was broken during development.
+This repository is connected to continuous integration. Currently, it checks repo2docker can use the repo to make a Docker image/Binder implementation, and also verifies the resulting running container can generate images. The status of these tests is displayed on the next line. (It can take a few minutes for the red `FAILED` badge to show if something was broken during development.)
 
 [![CircleCI](https://circleci.com/gh/fomightez/cairo-jupyter.svg?style=svg)](https://circleci.com/gh/fomightez/cairo-jupyter)
 
