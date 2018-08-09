@@ -1,17 +1,10 @@
-# -*- coding: utf-8 -*-
-from setuptools import setup
+from os.path import *
+import os
+import sys
 
-try:
-    from jupyterpip import cmdclass
-except:
-    import pip, importlib
-    pip.main(['install', 'jupyter-pip']); cmdclass = importlib.import_module('jupyterpip').cmdclass
+_extdir = join(dirname(__file__), 'extension')
+sys.path.append(_extdir)
 
-setup(
-    name='cairo-jupyter',
-    packages=['cairo_jupyter'],
-    # ... more setup.py stuff here ...
-    install_requires=["jupyter-pip"],
-    cmdclass=cmdclass('cairo_jupyter'),
-)
+os.chdir(_extdir)
 
+import extension.setup
