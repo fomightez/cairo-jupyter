@@ -1,10 +1,19 @@
-from os.path import *
-import os
-import sys
+# -*- coding: utf-8 -*-
+from setuptools import setup
 
-_extdir = join(dirname(__file__), 'extension')
-sys.path.append(_extdir)
+setup_kwargs=dict(
+    name='cairo-jupyter',
+    package_dir={'cairo_jupyter': 'extension/cairo_jupyter'},
+    install_requires=["jupyter-pip"],
+)
 
-os.chdir(_extdir)
+try:
+    from jupyterpip import cmdclass
+    setup_params['cmdclass'] = jupyterpip
+except:
+    cmdclass=setup
 
-from .extension import setup as _setup
+setup(**setup_kwargs)
+
+
+
