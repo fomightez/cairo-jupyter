@@ -1,2 +1,6 @@
+#!/bin/bash
+#
+# postBuild runs with cwd at the project root
+#
 jupyter nbextension enable cairo_jupyter
 jupyter trust index.ipynb demos/*.ipynb
