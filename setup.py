@@ -7,4 +7,4 @@ sys.path.append(_extdir)
 
 os.chdir(_extdir)
 
-import extension.setup
+from .extension import setup as _setup
