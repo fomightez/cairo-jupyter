@@ -1,3 +1,5 @@
+# requirements.txt is installed with cwd at the project root
+#
+-e .
 cairocffi
 pycairo
--e git+https://github.com/fomightez/cairo-jupyter.git#egg=cairo-jupyter
