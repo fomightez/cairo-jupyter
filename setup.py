@@ -1,9 +1,11 @@
 # -*- coding: utf-8 -*-
+from setuptools import find_packages
 from setuptools import setup
 
 setup_kwargs=dict(
     name='cairo-jupyter',
-    package_dir={'cairo_jupyter': 'extension/cairo_jupyter'},
+    packages=find_packages('extension'),
+    package_dir={'': 'extension'},
     install_requires=["jupyter-pip"],
 )
 
