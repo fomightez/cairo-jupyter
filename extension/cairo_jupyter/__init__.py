@@ -1,8 +1,21 @@
 """
 Display Hooks for pycairo, cairocffi Surfaces and Contexts.
 """
+import logging
+import os
+
 from io import BytesIO
 from IPython.core import display
+
+CAIRO_JUPYTER_LOG = "CAIRO_JUPYTER_LOG"
+
+def setup_logging():
+    logger = logging.getLogger("CAIRO_JUPYTER_LOG")
+    level = os.environ.get(CAIRO_JUPYTER_LOG) 
+    if level in ['debug', 'info', 'warning', 'error']:
+        logger.setLevel(level)
+    else:
+        logger.addHandler(logging.NullHandler())
 
 
 def display_cairo_surface(surface):
@@ -29,18 +42,26 @@ def load_ipython_extension(ipython):
     png_formatter = get_ipython().display_formatter.formatters['image/png']
     try:
         import cairo
-        dpi = png_formatter.for_type(cairo.Surface, display_cairo_surface)
-        dpi = png_formatter.for_type(cairo.Context, display_cairo_context)
+        png_formatter.for_type(cairo.Surface, display_cairo_surface)
+        png_formatter.for_type(cairo.Context, display_cairo_context)
     except ImportError:
-        pass
-    
+        cairo = None
+        logger.debug("import cairocffi failed")
+
     try:
         import cairocffi
-        dpi = png_formatter.for_type(cairocffi.surfaces.ImageSurface, display_cairo_surface)
-        dpi = png_formatter.for_type(cairocffi.Surface, display_cairo_surface)
-        dpi = png_formatter.for_type(cairocffi.Context, display_cairo_context)
+        png_formatter.for_type(cairocffi.surfaces.ImageSurface, display_cairo_surface)
+        png_formatter.for_type(cairocffi.Surface, display_cairo_surface)
+        png_formatter.for_type(cairocffi.Context, display_cairo_context)
     except ImportError:
-        pass
+        cairocffi = None
+        logger.debug("import cairocffi failed")
+
+    if not any([cairo, cairocffi]):
+        logger.error("Cairo or CairoCFFI not found")
 
 def unload_ipython_extension(ipython):
     pass
+
+
+setup_logging()
