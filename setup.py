@@ -7,6 +7,8 @@ setup_kwargs=dict(
     packages=find_packages('extension'),
     package_dir={'': 'extension'},
     install_requires=["jupyter-pip"],
+    setup_requires=["pytest-runner"],
+    tests_require=["pytest", "nbval"],
 )
 
 try:
