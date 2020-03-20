@@ -1,6 +1,8 @@
 #!/bin/bash
 #
-# postBuild runs with cwd at the project root
+# NOTE:  postBuild runs with cwd at the project root
 #
-jupyter nbextension enable cairo_jupyter
+# Install cairo_jupyter extension:
+pip install .
+# Trust the notebooks:
 jupyter trust index.ipynb demos/*.ipynb
