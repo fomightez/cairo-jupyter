@@ -9,9 +9,10 @@ from IPython import display, get_ipython
 
 CAIRO_JUPYTER_LOG = "CAIRO_JUPYTER_LOG"
 
+logger = logging.getLogger(CAIRO_JUPYTER_LOG)
+
 
 def setup_logging():
-    logger = logging.getLogger(CAIRO_JUPYTER_LOG)
     level = os.environ.get(CAIRO_JUPYTER_LOG)
     if level in ["debug", "info", "warning", "error"]:
         logger.setLevel(level)
@@ -30,7 +31,6 @@ def cairo_surface_as_png_data(surface):
     buffer = BytesIO()
     surface.write_to_png(buffer)
     buffer.seek(0)
-
     return buffer.read()
 
 
